@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{ 
+   height: 100%;
+   width: 100%;                                
+}
+
+.main{ 
+    height: 200%;
+    width: 200%;
+    background-color: white;
+}
+
+#nav{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+     font-size: 15px;
+     border: 1.5px solid #000;
+     padding: 5px 10px;
+     border-radius: 50px;
+}
+
+#nav i{
+     font-size: 17px;
+     border: 1.5px solid #000;
+     padding: 5px 10px;
+     border-radius: 50px;
+}
+
+#nav h1{  
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+
+#one{
+   font-size: 170px;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position:top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, - 50%);
+}
+
+#img1 {
+   transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img1 {
+   transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img1 {
+   transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img1 {
+   transform: translate(-50%, -50%) rotate(-20deg);
+}
